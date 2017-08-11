@@ -1,0 +1,212 @@
+.list .listLift{
+	float: left;
+	width: 780px;
+	background:#f4f4f4;
+	padding:0 10px;
+	margin: 5px 0;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.list .listRight{
+	float: right;
+	width: 400px;
+	text-align: left;
+	background:#f4f4f4;
+	padding:0 10px;
+	margin: 5px 0;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.swiper-pagination-bullet-active{
+	background: #FF6633;
+}
+.list{
+	background: #fff;
+}
+.wrap1{
+	border-bottom: 1px solid #ddd;
+	padding: 20px 0;
+}
+.list .wrap1 .listLift,.list .wrap1 .listRight{
+	background:#fff;
+}
+.ggTitle{
+	display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.topLift.listLift>p{
+	width: 100%;
+	display:block;white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
+}
+.listLift .notice-name{
+	padding-left: 30px;
+	width: 610px;
+	color: #FF6633;
+	display:inline-block;white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
+}
+.listLift .anquan img{
+	width: 100%;
+    height: 188px;
+}
+.listRight h3{
+	color:#000;
+	height: 50px;
+	line-height: 50px;
+	font-size: 22px;
+}
+.listRight h3 a{
+    font-size: 16px;
+    float: right;
+}
+.listRight.clearfix p{
+	padding:3px 0;
+}
+.listRight.clearfix .money{
+	font-size:16px;
+	margin: 10px 0;
+}
+.listRight.clearfix .time{
+	/*text-align: center;*/
+	color:#FF6633;
+}
+.listRight.clearfix .money p span{	
+	width: 49%;
+	/*text-align: center;*/
+	display: inline-block;
+}
+.listAnquan{
+	height: 188px;
+}
+.listLift h1.title,.listBaozheng .listRight h1.title{
+	color: #000;
+    height: 30px;
+    padding: 10px 0;
+    font-size: 22px;
+    border-bottom: 1px solid #ddd;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.listLift h1.title span{
+	display: inline-block;
+    width: 600px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 16px;
+    margin-left: 20px;
+    border-left: 1px solid #000;
+    padding-left: 20px;
+    position: relative;
+    top: 4px;
+}
+.baozhangList li a,.listRight li a{
+	display: block;
+}
+.baozhangList li a> ul li{
+	width: 100%;
+	padding:10px 7px;
+}
+.baozhangList li a> ul li div{
+	display: inline-block;
+	width: 24%;
+}
+.listBaozheng .listRight li a{
+	width: 100%;
+}
+.listBaozheng .listRight li a div{
+	display: inline-block;
+}
+.baozhangList li a> ul li.baozhang1 div{
+	width: 32%;
+}
+.baozhangList li a> ul li h1{
+	font-size: 18px;
+}
+.baozhangList .baozhang1 .juan span{
+	width: 28%;
+    display: inline-block;
+    text-align: center;
+    margin-right: 4%;
+    color: #FF6633;
+    border:1px solid #FF6633;
+    -moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+    border-radius: 5px;
+}
+.baozhang1 .jindu p{
+	width: 174px;
+	margin-left: 50px;
+    background: #AEAEAE;
+    display: inline-block;
+    position: relative;
+    height: 16px;
+}
+.baozhang1 .jindu p span{
+	background: #FF6633;
+    display: inline-block;
+    width: 120px;
+    position: absolute;
+    z-index: 3;
+    height: 16px;
+    top: 0px;
+    left: 0px;
+}
+.baozhang2 .haixu,.baozhang3 span.size.baifenbi{
+	color:#FF6633;
+}
+.baozhang3 span.size{
+	font-size: 22px;
+    font-weight: bold;
+}
+.listBaozheng .listRight .clearfix li .hrefLeft{
+	width: 60px;
+	padding:10px 0;
+	position: relative;
+    top: -8px;
+}
+.listBaozheng .listRight .clearfix li .hrefRight{
+	width: 315px;
+	border-bottom: 1px dashed #ddd;
+	padding:10px 0;
+}
+.baozhang3  .zhuangtai button{
+	display: inline-block;
+    width: 130px;
+    background: #ddd;
+    height: 30px;
+    border-radius: 5px;
+}
+.baozhang3  .zhuangtai.active button{
+	background: #FF6633;
+	color: #fff;
+}
+.listBaozheng .listRight .clearfix li .hrefRight p.color{
+	color: #FF6633;
+}
+.listBaozheng .listRight .clearfix li .hrefRight p.color .addlixi{
+	width: 80px;
+    display: inline-block;
+    text-align: center;
+    margin-right: 4%;
+    color: #FF6633;
+    border:1px solid #FF6633;
+    -moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.listchild{
+	display: block;
+}
+.listLift .baozhangList{
+	border-bottom: 2px solid #fff;
+}
