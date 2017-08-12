@@ -1,0 +1,67 @@
+#submit{
+	background: #169BD5;
+    color: #fff;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    -moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 18px;
+}
+.denglu{
+	width: 360px;
+    background: #fff;
+    padding: 28px 35px;
+    box-sizing: border-box;
+}
+.denglu h1{
+	height: 30px;
+	line-height: 30px;
+	font-size: 18px;
+}
+.denglu h1 p{
+	float: right;
+	font-size: 14px;
+}
+.denglu p span.iconfont{
+	display: inline-block;
+	font-size: 30px;
+	margin-right: 10px;
+}
+.denglu form>p{
+	margin: 10px 0;
+}
+.denglu form p input{
+	height: 32px;
+	line-height: 32px;
+	border:1px solid #ddd;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+    border-radius: 5px;
+    background:#fff;
+    text-indent: 1em;
+    width: 220px;
+}
+#yanzhengma1,#yanzhengma{
+	width: 120px;
+	cursor: pointer;
+}
+.mui-pull-right.yanz-btn{
+	display: inline-block;
+}
+.login .bg img{
+	width:100%;
+	height: 400px;
+}
+.login{
+	position: relative;
+}
+.login .denglu{
+	position: absolute;
+	top: 40px;
+	right: 30px;
+}

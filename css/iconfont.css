@@ -1,8 +1,8 @@
 
 @font-face {font-family: "iconfont";
-  src:url('../fonts/iconfont.ttf') format('truetype');
+  src:url('../fonts/iconfont.ttf') format('truetype'); /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  src:url('../fonts/iconfont.woff') format('truetype');
 }
-
 .iconfont {
   font-family:"iconfont" !important;
   font-size:16px;
@@ -11,7 +11,13 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-yonghu:before { content: "\e608"; }
+
+.icon-jianpan:before { content: "\e609"; }
+
+.icon-mima:before { content: "\e605"; }
+
+.icon-loginpassword:before { content: "\e67b"; }
+
 .icon-shouji:before { content: "\e648"; }
-
-
 

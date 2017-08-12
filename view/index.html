@@ -18,63 +18,10 @@
     <link rel="stylesheet" href="../css/iconfont.css">
 </head>
 <body>
-	<div class="header clearfix">
-		<div class="wrap1200">
-			<div class="header_left">
-				<ul>
-					<li><a href=""><span class="iconfont icon-shouji"></span>APP</a></li>
-					<li><a href="">客服热线：400-000-000</a></li>
-				</ul>
-			</div>
-			<div class="header_right">
-				<ul>
-					<li><a href="">新手指引</a></li>
-					<li><a href="">帮助中心</a></li>
-					<li><a href="">信息披露</a></li>
-					<li><a href="">登录</a></li>
-					<li><a href="">注册</a></li>
-				</ul>
-			</div>	
-		</div>
-	</div>
-	<div class="nav clearfix">
-		<div class="wrap1200">
-			<div class="nav_left">
-				<a href=""><img src="../images/logo.png" alt="LOGO"></a>
-			</div>
-			<ol class="nav_right">
-				<li><a class="active" href="">网站首页</a></li>
-				<li><a href="">我要投资</a></li>
-				<li><a href="">我要借款</a></li>
-				<li><a href="">积分商城</a></li>
-				<li><a href="">社区论坛</a></li>
-				<li><a href="">我的账户</a></li>
-			</ol>
-		</div>
-	</div>
-	<!-- 轮播图 -->
-	<style>
-	.swiper-container {
-	    width: 100%;
-	    height: 300px;
-	} 
-	</style>
-	<div class="lunbo" id="lunbo">
-		<div class="swiper-container" id="lun2">
-		    <div class="swiper-wrapper">
-		        <div class="swiper-slide" style="background: #4390EE;text-align: center;font-size: 30px;color:#000;">Slide 1</div>
-		        <div class="swiper-slide" style="background: #CA4040;text-align: center;font-size: 30px;color:#000;">Slide 2</div>
-		        <div class="swiper-slide" style="background: #FF8604;text-align: center;font-size: 30px;color:#000;">Slide 3</div>
-		    </div>
-		    <!-- 如果需要分页器 -->
-		    <div class="swiper-pagination"></div>
-		    
-		    <!-- 如果需要导航按钮 -->
-		    <div class="swiper-button-prev" id="prevbtn"></div>
-		    <div class="swiper-button-next" id="nextbtn"></div>
-		</div>
-	</div>
-	<!-- 轮播图 结束-->
+	<!-- 引入公共头部head.html -->
+	<iframe src='head.html' width='100%' height='148px' frameborder='0' name="_blank" id="_blank" ></iframe>
+	<!-- 引入公共轮播lunbo.html -->
+	<iframe src='lunbo.html' width='100%' height='300px' frameborder='0' name="_blank" id="_blank" ></iframe>
 	<!-- 标的 -->
 	<div class="list clearfix">
 		<div class="wrap1">
@@ -722,75 +669,14 @@
 						</ul>
 					</div>
 				</div>
-
-				
 			</div>
 		</div>
 	</div>
-	<!--公司介绍  -->
-	<div class="gsbox">
-		<div class="jieShao clearfix wrap1200">
-			<div class="hrefLeft">
-				<ul class="gongshi">
-					<li><a href="">公司介绍</a></li>
-					<li><a href="">安全保障</a></li>
-					<li><a href="">媒体报道</a></li>
-					<li><a href="">帮助中心</a></li>
-					<li><a href="">联系我们</a></li>
-				</ul>
-				<ol class="gsimgs">
-					<li>
-						<a href="javascript:;">
-							<img src="https://ifcar99.b0.upaiyun.com/themes/images/aqlm_img.jpg">
-						</a>
-					</li>
-					<li>
-						<a href="javascript:;">
-							<img src="https://ifcar99.b0.upaiyun.com/themes/images/f2.png">
-						</a>
-					</li>
-					<li>
-						<a href="javascript:;">
-							<img src="https://ifcar99.b0.upaiyun.com/themes/images/f2.png">
-						</a>
-					</li>
-					<li>
-						<a href="javascript:;">
-							<img src="https://ifcar99.b0.upaiyun.com/themes/images/f2.png">
-						</a>
-					</li>
-					<li>
-						<a href="javascript:;">
-							<img src="https://ifcar99.b0.upaiyun.com/themes/images/aqlm_img.jpg">
-						</a>
-					</li>
-				</ol>
-			</div>
-			<div class="hrefRight">
-				<img src="http://my.ganjiangps.com/upload/1489835033452.jpg" alt="">
-				<p>微信扫一扫</p>
-			</div>
-			</div>
-			<div class="dizhi clearfix wrap1200">
-				<p class="wleft">地 址：江苏省宿迁市宿城区人民大道666号嘉禾颐苑时代大厦5楼  </p>
-				<p class="wright">市场有风险，投资需谨慎 备案号:苏ICP备14023586号</p>
-			</div>
-		</div>
-	</div>
+	<!--引入foot.html公司介绍  -->
+	<iframe src='foot.html' width='100%' height='292px' frameborder='0' name="_blank" id="_blank" ></iframe>
 	<script src="../js/jquery-1.12.2.min.js"></script>
 	<!-- 轮播图 插件-->
 	<script src="../js/swiper.min.js"></script>
-	<script>
-	var mySwiper = new Swiper('.swiper-container',{
-		autoplay : 5000,//自动运行
-		nextButton: '.swiper-button-next',
-	    prevButton: '.swiper-button-prev',//按钮
-	    direction: 'horizontal',//水平方向
-	    loop : true,//可以循环点击
-	    pagination : '.swiper-pagination',//点
-	});
-	</script>
-	<!-- 图片切换插件 -->
 	<script type="text/javascript" src="../js/jquery1.42.min.js"></script>
     <script type="text/javascript" src="../js/jquery.SuperSlide.2.1.1.js"></script>
 	<script type="text/javascript">
