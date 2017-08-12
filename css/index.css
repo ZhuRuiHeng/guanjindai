@@ -24,6 +24,13 @@
 .swiper-pagination-bullet-active{
 	background: #FF6633;
 }
+.gsbox,.header{
+	background: #3D3D3D;
+	color:#fff;
+}
+.header ul li a,.jieShao .gongshi li a{
+	color:#fff;
+}
 .list{
 	background: #fff;
 }
@@ -243,7 +250,7 @@
     max-height: 40px;
     line-height: 20px;
 }
-.diYaWu .listRight h1.title {
+.diYaWu .listRight h1.title,.ZhuanRangBiao .listRight h1.title{
     color: #000;
     height: 30px;
     padding: 10px 0;
@@ -253,7 +260,126 @@
     overflow: hidden;
     text-overflow: ellipsis;
 }
-.diYaWu .listRight h1.title a{
+.diYaWu .listRight h1.title a,.ZhuanRangBiao .listRight h1.title a{
 	padding-left: 242px;
     font-size: 15px;
+}
+.listRight .asideu{
+	padding: 10px 0;
+}
+.listRight .asideu li a{
+	padding: 11px 0;
+}
+.listRight .asideu li a>div{
+	display: inline-block;
+	float: left;
+	width: inherit;
+}
+.listRight .asideu li a>div.hrefRight{
+	width: 220px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-left: 20px;
+}
+.list .wrap1200 .noneboder{
+	border-bottom: none;
+}
+.xinWen .title.clearfix,.HeZuoHuoBan .title{
+	padding: 10px;
+	height: 30px;
+	font-size: 22px;
+	color:#000;
+}
+.xinWen .title.clearfix p{
+	float:left;
+}
+.xinWen .title.clearfix a{
+	float:right;
+	font-size: 15px;
+}
+.xinwenList ul li .hrefLeft{
+	float: left;
+	display: inline-block;
+	width: 140px;
+}
+.xinwenList ul li .hrefLeft img{
+	width: 100%;
+	padding-top: 7px;
+}
+.xinwenList ul li .hrefRight{
+	width: 1060px;
+	float: right;
+	display: inline-block;
+	padding-left: 10px;
+    box-sizing: border-box;
+}
+.xinwenList ul li{
+	height: 80px;
+}
+.xinwenList ul li .hrefRight h3{
+	font-size: 18px;
+	line-height: 33px;
+}
+.xinwenList ul li .hrefRight .color{
+	overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    max-height: 40px;
+    line-height: 20px;
+    color:#626262;
+}
+.jieShao{
+	margin-bottom: 20px;
+}
+.jieShao .hrefLeft{
+	float: left;
+	width: 70%;
+}
+.jieShao .hrefRight{
+	float: left;
+	width: 30%;
+    vertical-align: middle;
+    text-align: center;
+}
+.jieShao .gongshi{
+	display: block;
+	height: 43px;
+	margin-top: 20px;
+}
+.jieShao .gsimgs{
+
+}
+.jieShao .gongshi li,.jieShao .gsimgs li{
+	float: left;
+}
+.jieShao .gsimgs li{
+	width: 150px;
+	margin-right:10px;
+}
+.jieShao .gsimgs li img{
+	width: 100%;
+}
+.jieShao .gongshi li a{
+	display: inline-block;
+	padding: 10px;
+}
+.jieShao .gsimgs{
+	padding: 10px 0;
+}
+.jieShao .hrefRight img{
+	width: 140px;
+    height: 140px;
+    margin-top: 20px;
+}
+.dizhi p{
+	padding: 20px 0 50px 0;
+}
+.dizhi p.wleft{
+	float: left;
+}
+.dizhi p.wright{
+	float: right;
 }
