@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>管金贷-登录</title>
+	<title>管金贷-忘记密码</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta content="always" name="referrer">
     <meta name="renderer" content="webkit">
@@ -24,23 +24,17 @@
     <!-- 登录 -->
     <div class="login">
         <p class="bg"><img src="http://my.ganjiangps.com/upload/1489975686445.png" alt=""></p>
-        <!-- 找回密码弹窗 -->
+        <!-- 登录弹窗 -->
         <div class="denglu">
             <form action="" method="post">
-                <h1 class="title clearfix">找回密码</h1>
+                <h1 class="title clearfix">用户登录<p><a href="forget.html">忘记密码</a>|<a href="login.html" style="color:red;">免费注册</a></p></h1>
                 <p><span class="iconfont icon-yonghu"></span><input type="text" placeholder="请输入手机号"></p>
+                <p><span class="iconfont icon-mima"></span><input type="password" placeholder="请输入登录密码"></p>
                 <p>
                     <span class="iconfont icon-jianpan " style="margin-right: 6px;"></span>
-                    <input type="text" id="yanzhengma1" onblur="validate()" placeholder="请输入校验码">
+                    <input type="text" id="yanzhengma1" onblur="validate()" placeholder="请输入验证码">
                     <span class="mui-pull-right yanz-btn">
-                        <input type="text" value="2344" onclick="createCode()" readonly="readonly" id="checkCode" class="code1" style="height:30px;width:5pc;background:#626262;color:#fff;font-family:Arial;text-indent: :italic;border:0;padding:2px 3px;letter-spacing:3px;font-weight:bolder;text-align:center;">
-                    </span>
-                </p>
-                <p>
-                    <span class="iconfont icon-jianpan " style="margin-right: 6px;"></span>
-                    <input type="text" id="yanzhengma" onblur="" placeholder="请输入手机验证码">
-                    <span class="mui-pull-right yanz-btn">
-                        <input type="text" value="点击获取"  readonly="readonly" id="checkCode" class="code1" style="height:30px;width:5pc;background:#626262;color:#fff;font-family:Arial;text-indent: 0;border:0;padding:2px 3px;font-weight:bolder;text-align:center;">
+                        <input type="text" value="2344" onclick="createCode()" readonly="readonly" id="checkCode" class="code1" style="height:30px;width:5pc;background:#626262;color:#fff;font-family:Arial;font-style:italic;border:0;padding:2px 3px;letter-spacing:3px;font-weight:bolder;text-align:center;">
                     </span>
                 </p>
                 <p><button type="submit" class="btn btn-primary" id="submit"> 立即登录</button></p>
