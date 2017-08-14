@@ -30,6 +30,7 @@
 	display: inline-block;
 	font-size: 25px;
 	margin-right: 10px;
+	vertical-align: middle;
 }
 span.iconfont.icon-mima{
 	position: relative;

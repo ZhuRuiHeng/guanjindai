@@ -24,8 +24,8 @@ a:link,a:visited ,a:hover {
     text-decoration: none;
 }
 em,i,span,b,label{
-	font-style: normal;
-	display: inline-block;
+  font-style: normal;
+  display: inline-block;
     font-weight: normal;
 }
 input,button,textarea {
@@ -45,6 +45,7 @@ input[type="radio"]{
 button{
   -webkit-appearance:none;
 }
+img{border:0px},
 /*公共header*/
 .wrap1200{
     width: 1200px;
@@ -99,4 +100,9 @@ button{
 }
 ol.nav_right li a:hover,ol.nav_right li a.active{
     color: #169BD5;
+}
+.phcolor{ color:#999;}
+.wrap1200{
+  width: 1200px;
+  margin: 0 auto;
 }

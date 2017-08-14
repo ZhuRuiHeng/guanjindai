@@ -19,52 +19,71 @@
     <link rel="stylesheet" href="../css/login.css">
 </head>
 <style>
-.login{height: 600px;}
+.login{height: 600px;margin: 0 auto;}
 .login .bg img{width: 100%;height: 600px;}
+/*居中*/
+.zhuceBox {   
+    margin: 0 auto; 
+    width: 660px;
+    padding: 28px 35px;
+    box-sizing: border-box;
+    text-align: center;
+}  
+.zhuce{
+    top:23%;
+    left:30%;
+    -webkit-transform:translate(-23%, -30%)
+}
 </style>
 <body>
     <!-- 引入公共头部head.html -->
     <iframe src='head.html' width='100%' height='148px' frameborder='0' name="_blank" id="_blank" ></iframe>
     <!-- 登录 -->
     <div class="login">
-        <p class="bg"><img src="http://my.ganjiangps.com/upload/1489975686445.png" alt=""></p>
+        <p class="bg"><img src="https://www.ifcar99.com/v2/images/login_bg.jpg" alt=""></p>
         <!-- 注册登录弹窗 -->
-        <div class="zhuce">
-            <form action="" method="post">
-                <h1 class="title clearfix">用户注册<p><a href="login.html">已有账号，</a><a href="login.html" style="color:red;">立即登录</a></p></h1>
-                <div class="form-group">
-                    <label>手机号码<span>*</span></label>  
-                    <input type="text" placeholder="请输入您的手机号码">
-                </div>
-                <div class="form-group">
-                    <label>登录密码<span>*</span></label>  
-                    <input type="password" placeholder="请输入密码，由字母、数字、特殊字符组成的密码">
-                </div>
-                <div class="form-group">
-                    <label>确认密码<span>*</span></label>  
-                    <input type="password" placeholder="请再次输入您的密码">
-                </div>
-                <div class="form-group duanxin">
-                    <label>短信验证<span>*</span></label>  
-                    <input type="text" placeholder="请输入短信验证码">
-                    <button>获取短信验证码</button>
-                </div>
-                <div class="form-group">
-                    <label>推荐人<span></span></label>  
-                    <input type="text" placeholder="请输入您的推荐人的邀请码">
-                </div>
-                <div class="form-group">
-                    <label style="visibility: hidden;">用户协议<span></span></label>  
-                    <p style="display: inline-block;"><input type="checkbox">我已同意并且同意
-                    <a href="" style="color:red">《XX会员服务协议》</a></p>
-                </div>
-                <p><button style="width:300px;margin:0 auto;display:block;margin-top: 33px;" type="submit" class="btn btn-primary" id="submit"> 确认注册</button></p>
-            </form>
+        <div class="zhuceBox">
+            <div class="zhuce">
+                <form action="" method="post">
+                    <h1 class="title clearfix">用户注册<p><a href="login.html">已有账号，</a><a href="login.html" style="color:red;">立即登录</a></p></h1>
+                    <div class="form-group">
+                        <label>手机号码<span>*</span></label>  
+                        <input type="text" placeholder="请输入您的手机号码">
+                    </div>
+                    <div class="form-group">
+                        <label>登录密码<span>*</span></label>  
+                        <input type="password" placeholder="请输入密码，由字母、数字、特殊字符组成的密码">
+                    </div>
+                    <div class="form-group">
+                        <label>确认密码<span>*</span></label>  
+                        <input type="password" placeholder="请再次输入您的密码">
+                    </div>
+                    <div class="form-group duanxin">
+                        <label>短信验证<span>*</span></label>  
+                        <input type="text" placeholder="请输入短信验证码">
+                        <button>获取短信验证码</button>
+                    </div>
+                    <div class="form-group">
+                        <label>推荐人<span></span></label>  
+                        <input type="text" placeholder="请输入您的推荐人的邀请码">
+                    </div>
+                    <div class="form-group">
+                        <label style="visibility: hidden;">用户协议<span></span></label>  
+                        <p style="display: inline-block;"><input type="checkbox">我已同意并且同意
+                        <a href="" style="color:red">《XX会员服务协议》</a></p>
+                    </div>
+                    <p><button style="width:300px;margin:0 auto;display:block;margin-top: 33px;" type="submit" class="btn btn-primary" id="submit"> 确认注册</button></p>
+                </form>
+            </div>
         </div>
     </div> 
     <!--引入foot.html公司介绍  -->
     <iframe src='foot.html' width='100%' height='292px' frameborder='0' name="_blank" id="_blank" ></iframe>
     <script src="../js/jquery-1.12.2.min.js"></script>
+    <!-- 兼容ie input placeholder-->
+    <script src="../js/input.js"></script>
+    <!-- 让不（完全）支持html5的浏览器“支持”html5标签 -->
+    <script type="text/javascript" src="../js/html5shiv.js"></script>
     <script>
          var code1 ; //在全局 定义验证码   
          function createCode(){    

@@ -15,7 +15,7 @@
     <!-- 轮播图 -->
     <link rel="stylesheet" href="../css/swiper.min.css">
     <link rel="stylesheet" href="../css/index.css">
-    <link rel="stylesheet" href="../css/iconfont.css">
+    <!-- <link rel="stylesheet" href="../css/iconfont.css"> -->
     <link rel="stylesheet" href="../css/login.css">
 </head>
 <body>
@@ -23,24 +23,24 @@
     <iframe src='head.html' width='100%' height='148px' frameborder='0' name="_blank" id="_blank" ></iframe>
     <!-- 登录 -->
     <div class="login">
-        <p class="bg"><img src="http://my.ganjiangps.com/upload/1489975686445.png" alt=""></p>
+        <p class="bg"><img src="https://www.ifcar99.com/v2/images/login_bg.jpg" alt=""></p>
         <!-- 找回密码弹窗 -->
         <div class="denglu">
             <form action="" method="post">
                 <h1 class="title clearfix">找回密码</h1>
-                <p><span class="iconfont icon-yonghu"></span><input type="text" placeholder="请输入手机号"></p>
+                <p><span class="iconfont icon-yonghu"><img src="../images/shouji.png" alt=""></span><input type="text" placeholder="请输入手机号"></p>
                 <p>
-                    <span class="iconfont icon-jianpan " style="margin-right: 6px;"></span>
+                    <span class="iconfont icon-jianpan " style="margin-right: 6px;"><img src="../images/jianpan.png" alt=""></span>
                     <input type="text" id="yanzhengma1" onblur="validate()" placeholder="请输入校验码">
                     <span class="mui-pull-right yanz-btn">
-                        <input type="text" value="2344" onclick="createCode()" readonly="readonly" id="checkCode" class="code1" style="height:30px;width:5pc;background:#626262;color:#fff;font-family:Arial;text-indent: :italic;border:0;padding:2px 3px;letter-spacing:3px;font-weight:bolder;text-align:center;">
+                        <input type="text" value="2344" placeholder="2344" onclick="createCode()" readonly="readonly" id="checkCode" class="code1" style="height:30px;width:5pc;background:#626262;color:#fff;font-family:Arial;text-indent: :italic;border:0;padding:2px 3px;letter-spacing:3px;font-weight:bolder;text-align:center;">
                     </span>
                 </p>
                 <p>
-                    <span class="iconfont icon-jianpan " style="margin-right: 6px;"></span>
+                    <span class="iconfont icon-jianpan " style="margin-right: 6px;"><img src="../images/jianpan.png" alt=""></span>
                     <input type="text" id="yanzhengma" onblur="" placeholder="手机验证码">
                     <span class="mui-pull-right yanz-btn">
-                        <input type="text" value="点击获取"  readonly="readonly" id="checkCode" class="code1" style="height:30px;width:5pc;background:#626262;color:#fff;font-family:Arial;text-indent: 0;border:0;padding:2px 3px;font-weight:bolder;text-align:center;">
+                        <input type="text" value="点击获取" placeholder="点击获取"  readonly="readonly" id="checkCode" class="code1" style="height:30px;width:5pc;background:#626262;color:#fff;font-family:Arial;text-indent: 0;border:0;padding:2px 3px;font-weight:bolder;text-align:center;">
                     </span>
                 </p>
                 <p><button type="submit" class="btn btn-primary" id="submit"> 立即找回</button></p>
@@ -50,6 +50,10 @@
     <!--引入foot.html公司介绍  -->
     <iframe src='foot.html' width='100%' height='292px' frameborder='0' name="_blank" id="_blank" ></iframe>
     <script src="../js/jquery-1.12.2.min.js"></script>
+    <!-- 兼容ie input placeholder-->
+    <script src="../js/input.js"></script>
+    <!-- 让不（完全）支持html5的浏览器“支持”html5标签 -->
+    <script type="text/javascript" src="../js/html5shiv.js"></script>
     <script>
          var code1 ; //在全局 定义验证码   
          function createCode(){    
