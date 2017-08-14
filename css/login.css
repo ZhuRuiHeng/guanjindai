@@ -28,8 +28,12 @@
 }
 .denglu p span.iconfont{
 	display: inline-block;
-	font-size: 30px;
+	font-size: 25px;
 	margin-right: 10px;
+}
+span.iconfont.icon-mima{
+	position: relative;
+    top: 4px;
 }
 .denglu form>p{
 	margin: 10px 0;
@@ -64,4 +68,66 @@
 	position: absolute;
 	top: 40px;
 	right: 30px;
+}
+.zhuce h1 {
+    height: 30px;
+    line-height: 30px;
+    font-size: 18px;
+}
+.zhuce h1 p {
+    float: right;
+    font-size: 14px;
+}
+.zhuce{
+	background: #fff;
+	width: 660px;
+	padding: 28px 35px;
+    box-sizing: border-box;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+}
+.zhuce .form-group label{
+	width: 70px;
+}
+.zhuce .form-group label span{
+	color: red;
+	height: 36px;
+	line-height: 36px;
+}
+.zhuce .form-group{
+	margin: 10px 0;
+}
+.zhuce .form-group input{
+	height: 32px;
+	line-height: 32px;
+	border:1px solid #ddd;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+    border-radius: 5px;
+    background:#fff;
+    text-indent: 1em;
+    width: 508px;
+}
+.form-group.duanxin{
+	position: relative;
+}
+.form-group.duanxin button{
+	position: absolute;
+    width: 120px;
+    height: 34px;
+    right: 35px;
+    cursor: pointer;
+    border-left: 1px solid #ddd;
+    box-sizing: border-box;
+}
+.form-group p input[type='checkbox']{
+	width: 18px;
+	height: 18px;
+	position: relative;
+    top: 4px;
+    right: 4px;
+    cursor: pointer;
 }
