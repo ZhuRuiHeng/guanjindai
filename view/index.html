@@ -19,7 +19,7 @@
 </head>
 <body>
 	<!-- 引入公共头部head.html -->
-	<iframe src='head.html' width='100%' height='148px' frameborder='0' name="_blank" id="_blank" ></iframe>
+	<iframe src='head.html' width='100%' height='153px' frameborder='0' name="_blank" id="_blank" ></iframe>
 	<!-- 引入公共轮播lunbo.html -->
 	<iframe src='lunbo.html' width='100%' height='300px' frameborder='0' name="_blank" id="_blank" ></iframe>
 	<!-- 标的 -->
@@ -132,73 +132,126 @@
 						</li>
 					</ul>
 				</div>
-
+				<style>
+				/* 本例子上下滚动css */
+				.picMarquee-top{ margin:0 auto;  width:100%; overflow:hidden; position:relative; }
+				.picMarquee-top .hd{ overflow:hidden;  height:30px; background:#f4f4f4; padding:0 10px;  }
+				.picMarquee-top .hd .prev,.picMarquee-top .hd .next{ display:block;  width:9px; height:5px; float:right; margin-right:5px; margin-top:10px;  overflow:hidden;
+				 cursor:pointer; background:url("../images/arrow.png") 0 -100px no-repeat;}
+				.picMarquee-top .hd .next{ background-position:0 -140px;  }
+				.picMarquee-top .hd .prevStop{ background-position:-60px -100px;  }
+				.picMarquee-top .hd .nextStop{ background-position:-60px -140px;  }
+				</style>
 				<div class="listRight">
 					<h1 class="title">
 						最新投资
 					</h1>
-					<ul class="clearfix">
-						<li>
-							<a href="">
-								<div class="hrefLeft">2分钟前</div>
-								<div class="hrefRight">
-									<p>xxxxx投资AAAAAAA</p>
-									<p class="color">
-										<span>￥6,,000,000.00</span>
-										<span class="addlixi">加息券</span>
-									</p>
-								</div>
-							</a>
-						</li>
-						<li>
-							<a href="">
-								<div class="hrefLeft">2分钟前</div>
-								<div class="hrefRight">
-									<p>xxxxx投资AAAAAAA</p>
-									<p class="color">
-										<span>￥6,,000,000.00</span>
-										<span class="addlixi">加息券</span>
-									</p>
-								</div>
-							</a>
-						</li>
-						<li>
-							<a href="">
-								<div class="hrefLeft">2分钟前</div>
-								<div class="hrefRight">
-									<p>xxxxx投资AAAAAAA</p>
-									<p class="color">
-										<span>￥6,,000,000.00</span>
-										<span class="addlixi">加息券</span>
-									</p>
-								</div>
-							</a>
-						</li>
-						<li>
-							<a href="">
-								<div class="hrefLeft">2分钟前</div>
-								<div class="hrefRight">
-									<p>xxxxx投资AAAAAAA</p>
-									<p class="color">
-										<span>￥6,,000,000.00</span>
-										<span class="addlixi">加息券</span>
-									</p>
-								</div>
-							</a>
-						</li>
-						<li>
-							<a href="">
-								<div class="hrefLeft">2分钟前</div>
-								<div class="hrefRight">
-									<p>xxxxx投资AAAAAAA</p>
-									<p class="color">
-										<span>￥6,,000,000.00</span>
-										<span class="addlixi">加息券</span>
-									</p>
-								</div>
-							</a>
-						</li>
-					</ul>
+					<div class="picMarquee-top">
+						<div class="hd">
+							<a class="next"></a>
+							<a class="prev"></a>
+						</div>
+						<div class="bd">
+							<ul class="clearfix picList" >
+								<li>
+									<a href="">
+										<div class="hrefLeft">2分钟前</div>
+										<div class="hrefRight">
+											<p>1xxxxx投资AAAAAAA</p>
+											<p class="color">
+												<span>￥6,,000,000.00</span>
+												<span class="addlixi">加息券</span>
+											</p>
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<div class="hrefLeft">2分钟前</div>
+										<div class="hrefRight">
+											<p>2xxxxx投资AAAAAAA</p>
+											<p class="color">
+												<span>￥6,,000,000.00</span>
+												<span class="addlixi">加息券</span>
+											</p>
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<div class="hrefLeft">2分钟前</div>
+										<div class="hrefRight">
+											<p>3.1xxxxx投资AAAAAAA</p>
+											<p class="color">
+												<span>￥6,,000,000.00</span>
+												<span class="addlixi">加息券</span>
+											</p>
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<div class="hrefLeft">2分钟前</div>
+										<div class="hrefRight">
+											<p>3xxxxx投资AAAAAAA</p>
+											<p class="color">
+												<span>￥6,,000,000.00</span>
+												<span class="addlixi">加息券</span>
+											</p>
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<div class="hrefLeft">2分钟前</div>
+										<div class="hrefRight">
+											<p>4xxxxx投资AAAAAAA</p>
+											<p class="color">
+												<span>￥6,,000,000.00</span>
+												<span class="addlixi">加息券</span>
+											</p>
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<div class="hrefLeft">2分钟前</div>
+										<div class="hrefRight">
+											<p>5xxxxx投资AAAAAAA</p>
+											<p class="color">
+												<span>￥6,,000,000.00</span>
+												<span class="addlixi">加息券</span>
+											</p>
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<div class="hrefLeft">2分钟前</div>
+										<div class="hrefRight">
+											<p>6xxxxx投资AAAAAAA</p>
+											<p class="color">
+												<span>￥6,,000,000.00</span>
+												<span class="addlixi">加息券</span>
+											</p>
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<div class="hrefLeft">2分钟前</div>
+										<div class="hrefRight">
+											<p>7xxxxx投资AAAAAAA</p>
+											<p class="color">
+												<span>￥6,,000,000.00</span>
+												<span class="addlixi">加息券</span>
+											</p>
+										</div>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -484,55 +537,62 @@
 						</li>
 					</ul>
 				</div>
-
+				<style>
+				/* 本例子上下滚动css */
+				.upimgs{ margin:0 auto;  width:100%; overflow:hidden; position:relative; }
+				</style>
 				<div class="listRight">
 					<h1 class="title">
 						平台公告<a href="" style="padding-left: 242px;font-size: 15px;">更多></a>
 					</h1>
-					<ul class="clearfix asideu">
-						<li>
-							<a href="" class="clearfix">
-								<div class="hrefLeft">2017-05-17  16:16:38</div>
-								<div class="hrefRight">关于系统平台登陆困难的公告</div>
-							</a>
-						</li>
-						<li>
-							<a href="" class="clearfix">
-								<div class="hrefLeft">2017-05-17  16:16:38</div>
-								<div class="hrefRight">关于系统平台登陆困难的公告</div>
-							</a>
-						</li>
-						<li>
-							<a href="" class="clearfix">
-								<div class="hrefLeft">2017-05-17  16:16:38</div>
-								<div class="hrefRight">关于系统平台登陆困难的公告</div>
-							</a>
-						</li>
-						<li>
-							<a href="" class="clearfix">
-								<div class="hrefLeft">2017-05-17  16:16:38</div>
-								<div class="hrefRight">关于系统平台登陆困难的公告</div>
-							</a>
-						</li>
-						<li>
-							<a href="" class="clearfix">
-								<div class="hrefLeft">2017-05-17  16:16:38</div>
-								<div class="hrefRight">关于系统平台登陆困难的公告</div>
-							</a>
-						</li>
-						<li>
-							<a href="" class="clearfix">
-								<div class="hrefLeft">2017-05-17  16:16:38</div>
-								<div class="hrefRight">关于系统平台登陆困难的公告</div>
-							</a>
-						</li>
-						<li>
-							<a href="" class="clearfix">
-								<div class="hrefLeft">2017-05-17  16:16:38</div>
-								<div class="hrefRight">关于系统平台登陆困难的公告</div>
-							</a>
-						</li>
-					</ul>
+					<div class="upimgs">
+						<div class="bd">
+							<ul class="clearfix asideu picList">
+								<li>
+									<a href="" class="clearfix">
+										<div class="hrefLeft">2017-05-17  16:16:38</div>
+										<div class="hrefRight">1关于系统平台登陆困难的公告</div>
+									</a>
+								</li>
+								<li>
+									<a href="" class="clearfix">
+										<div class="hrefLeft">2017-05-17  16:16:38</div>
+										<div class="hrefRight">2关于系统平台登陆困难的公告</div>
+									</a>
+								</li>
+								<li>
+									<a href="" class="clearfix">
+										<div class="hrefLeft">2017-05-17  16:16:38</div>
+										<div class="hrefRight">3关于系统平台登陆困难的公告</div>
+									</a>
+								</li>
+								<li>
+									<a href="" class="clearfix">
+										<div class="hrefLeft">2017-05-17  16:16:38</div>
+										<div class="hrefRight">4关于系统平台登陆困难的公告</div>
+									</a>
+								</li>
+								<li>
+									<a href="" class="clearfix">
+										<div class="hrefLeft">2017-05-17  16:16:38</div>
+										<div class="hrefRight">5关于系统平台登陆困难的公告</div>
+									</a>
+								</li>
+								<li>
+									<a href="" class="clearfix">
+										<div class="hrefLeft">2017-05-17  16:16:38</div>
+										<div class="hrefRight">6关于系统平台登陆困难的公告</div>
+									</a>
+								</li>
+								<li>
+									<a href="" class="clearfix">
+										<div class="hrefLeft">2017-05-17  16:16:38</div>
+										<div class="hrefRight">7关于系统平台登陆困难的公告</div>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -683,8 +743,17 @@
     <script src="../js/input.js"></script>
     <!-- 让不（完全）支持html5的浏览器“支持”html5标签 -->
     <script type="text/javascript" src="../js/html5shiv.js"></script>
+    <!-- 左右滚动 -->
 	<script type="text/javascript">
 		jQuery(".picScroll-left").slide({titCell:".hd ul",mainCell:".bd ul",autoPage:true,effect:"left",autoPlay:true,vis:6,trigger:"click"});
 	</script>
+	<!-- 上下滚动 -->
+	<script id="jsID" type="text/javascript">
+	var ary = location.href.split("&");
+	jQuery(".picMarquee-top").slide({mainCell:".bd ul",autoPage:true,effect:"top",autoPlay:true,vis:5,delayTime:500});
+
+	</script>
+
+
 </body>
 </html>

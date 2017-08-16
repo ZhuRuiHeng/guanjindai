@@ -1,0 +1,30 @@
+body{
+	background: #fff;
+}
+.wrap1200{
+	background: #eee;
+	padding: 0 15px;
+	box-sizing: border-box;
+}
+.biao-title ul.clearfix li,.biao-title .fenlei ol li{
+	float: left;
+}
+.biao-title ul.clearfix li a{   
+    display: inline-block;
+    position: relative;
+    padding: 15px 20px 15px 0;
+    font-size: 20px;
+}
+.biao-title ul.clearfix li a.active,.biao-title .fenlei ol li.lei.active,.biao-title .fenlei ol li.all.active{
+	color:#169BD5;
+}
+.biao-title .fenlei ol li{
+	padding: 5px 20px 5px 0;
+	color:#000;
+}
+.biao-title .fenlei ol li label{
+	 cursor: pointer;
+}
+.biao-title .fenlei ol li h2{
+	font-size: 17px;
+}
