@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>管金贷-保证标</title>
+	<title>管金贷-项目</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta content="always" name="referrer">
     <meta name="renderer" content="webkit">
@@ -21,16 +21,22 @@
 <body>
     <!-- 引入公共头部head.html -->
     <iframe src='head.html' width='100%' height='153px' frameborder='0' name="_blank" id="_blank" ></iframe>
-    <!-- 内容 -->
-    <div class="wrap1200" style="background: #fff;">
+    <!-- title -->
+    <div class="wrap1200" style="background: #fff;border-top:1px solid #ddd;">
         <div class="biao-title">
             <!-- title-->
             <ul class="clearfix">
-                <li><a class="active" href="javascript:;">保证标</a></li>
-                <li><a href="javascript:;">抵押标</a></li>
-                <li><a href="javascript:;">金融标</a></li>
-                <li><a href="javascript:;">转让标</a></li>
+                <li><a class="active" name="1" href="javascript:;">保证标</a></li>
+                <li><a name="2" href="javascript:;">抵押标</a></li>
+                <li><a name="3" href="javascript:;">金融标</a></li>
+                <li><a name="4" href="javascript:;">转让标</a></li>
             </ul>
+        </div>
+    </div>
+    <!-- 分类不同标的 -->
+    <!-- 保证标 -->
+    <div class="wrap1200" >
+        <div class="biao-title">
             <!-- 分类-->
             <div class="fenlei">
                 <ol class="loantime clearfix">
@@ -111,7 +117,13 @@
         </div>
     </div>
     <!-- 列表 -->
-    <div class="listBaozheng clearfix wrap1200">
+    <style>
+    .baozhangList li a> ul li.baozhang1 div{width: 24%;}
+    .baozhang1 .jindu p{margin-left:0;}
+    .baozhangList .baozhang1 .juan span{width: 24%;}
+    </style>
+    <!-- 保证标 -->
+    <div class="listBaozheng clearfix wrap1200 biaodi biaodi1" style="margin-top: 20px;">
         <div class="listchild">
             <div class="listLift">
                 <ul class="baozhangList">
@@ -119,8 +131,41 @@
                         <a href="">
                             <ul>
                                 <li class="baozhang1">
+                                    <div><h1>保证标</h1></div>
+                                    <div class="juan">
+                                        <span>加息券</span><span>现金券</span><span>可转让</span>
+                                    </div>
+                                    <div></div>
+                                    <div class="jindu">
+                                        <p><span style="width: 20%"></span></p>5%
+                                    </div>
+                                </li>
+                                <li class="baozhang2">
+                                    <div>年化收益</div>
+                                    <div>项目期限</div>
+                                    <div>项目总额</div>
+                                    <div>还需：<span class="haixu">875300.00</span>元</div>
+                                </li>
+                                <li class="baozhang3">
+                                    <div><h1><span class="size baifenbi">12.00%</span></h1></div>
+                                    <div><h1><span class="size">12.00</span>个月</h1></div>
+                                    <div><h1><span class="size">12.00</span>个月</h1></div>
+                                    <div class="zhuangtai"><button>立即投资</button></div>
+                                </li>   
+                            </ul>       
+                        </a>
+                    </li>
+                </ul>
+                <ul class="baozhangList">
+                    <li>
+                        <a href="">
+                            <ul>
+                                <li class="baozhang1">
                                     <div><h1>名称</h1></div>
-                                    <div class="juan"><span>加息券</span><span>现金券</span><span>可转让</span></div>
+                                    <div class="juan">
+                                        <span>加息券</span><span>现金券</span><span>可转让</span>
+                                    </div>
+                                    <div></div>
                                     <div class="jindu">
                                         <p><span style="width: 20%"></span></p>5%
                                     </div>
@@ -147,9 +192,303 @@
                             <ul>
                                 <li class="baozhang1">
                                     <div><h1>名称</h1></div>
-                                    <div class="juan"><span>加息券</span><span>现金券</span><span>可转让</span></div>
+                                    <div class="juan">
+                                        <span>加息券</span><span>现金券</span><span>可转让</span>
+                                    </div>
+                                    <div></div>
                                     <div class="jindu">
-                                        <p><span style="width: 40%"></span></p>5%
+                                        <p><span style="width: 20%"></span></p>5%
+                                    </div>
+                                </li>
+                                <li class="baozhang2">
+                                    <div>年化收益</div>
+                                    <div>项目期限</div>
+                                    <div>项目总额</div>
+                                    <div>还需：<span class="haixu">875300.00</span>元</div>
+                                </li>
+                                <li class="baozhang3">
+                                    <div><h1><span class="size baifenbi">12.00%</span></h1></div>
+                                    <div><h1><span class="size">12.00</span>个月</h1></div>
+                                    <div><h1><span class="size">12.00</span>个月</h1></div>
+                                    <div class="zhuangtai"><button>立即投资</button></div>
+                                </li>   
+                            </ul>       
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+     <!-- 抵押标 -->
+    <div class="listBaozheng clearfix wrap1200 biaodi biaodi2" style="margin-top: 20px;display: none">
+        <div class="listchild">
+            <div class="listLift">
+                <ul class="baozhangList">
+                    <li>
+                        <a href="">
+                            <ul>
+                                <li class="baozhang1">
+                                    <div><h1>抵押标</h1></div>
+                                    <div class="juan">
+                                        <span>加息券</span><span>现金券</span><span>可转让</span>
+                                    </div>
+                                    <div></div>
+                                    <div class="jindu">
+                                        <p><span style="width: 20%"></span></p>5%
+                                    </div>
+                                </li>
+                                <li class="baozhang2">
+                                    <div>年化收益</div>
+                                    <div>项目期限</div>
+                                    <div>项目总额</div>
+                                    <div>还需：<span class="haixu">875300.00</span>元</div>
+                                </li>
+                                <li class="baozhang3">
+                                    <div><h1><span class="size baifenbi">12.00%</span></h1></div>
+                                    <div><h1><span class="size">12.00</span>个月</h1></div>
+                                    <div><h1><span class="size">12.00</span>个月</h1></div>
+                                    <div class="zhuangtai"><button>立即投资</button></div>
+                                </li>   
+                            </ul>       
+                        </a>
+                    </li>
+                </ul>
+                <ul class="baozhangList">
+                    <li>
+                        <a href="">
+                            <ul>
+                                <li class="baozhang1">
+                                    <div><h1>名称</h1></div>
+                                    <div class="juan">
+                                        <span>加息券</span><span>现金券</span><span>可转让</span>
+                                    </div>
+                                    <div></div>
+                                    <div class="jindu">
+                                        <p><span style="width: 20%"></span></p>5%
+                                    </div>
+                                </li>
+                                <li class="baozhang2">
+                                    <div>年化收益</div>
+                                    <div>项目期限</div>
+                                    <div>项目总额</div>
+                                    <div>还需：<span class="haixu">875300.00</span>元</div>
+                                </li>
+                                <li class="baozhang3">
+                                    <div><h1><span class="size baifenbi">12.00%</span></h1></div>
+                                    <div><h1><span class="size">12.00</span>个月</h1></div>
+                                    <div><h1><span class="size">12.00</span>个月</h1></div>
+                                    <div class="zhuangtai"><button>立即投资</button></div>
+                                </li>   
+                            </ul>       
+                        </a>
+                    </li>
+                </ul>
+                <ul class="baozhangList noneboder">
+                    <li>
+                        <a href="">
+                            <ul>
+                                <li class="baozhang1">
+                                    <div><h1>名称</h1></div>
+                                    <div class="juan">
+                                        <span>加息券</span><span>现金券</span><span>可转让</span>
+                                    </div>
+                                    <div></div>
+                                    <div class="jindu">
+                                        <p><span style="width: 20%"></span></p>5%
+                                    </div>
+                                </li>
+                                <li class="baozhang2">
+                                    <div>年化收益</div>
+                                    <div>项目期限</div>
+                                    <div>项目总额</div>
+                                    <div>还需：<span class="haixu">875300.00</span>元</div>
+                                </li>
+                                <li class="baozhang3">
+                                    <div><h1><span class="size baifenbi">12.00%</span></h1></div>
+                                    <div><h1><span class="size">12.00</span>个月</h1></div>
+                                    <div><h1><span class="size">12.00</span>个月</h1></div>
+                                    <div class="zhuangtai"><button>立即投资</button></div>
+                                </li>   
+                            </ul>       
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- 金融标 -->
+    <div class="listBaozheng clearfix wrap1200 biaodi biaodi3" style="margin-top: 20px;display: none">
+        <div class="listchild">
+            <div class="listLift">
+                <ul class="baozhangList">
+                    <li>
+                        <a href="">
+                            <ul>
+                                <li class="baozhang1">
+                                    <div><h1>金融标</h1></div>
+                                    <div class="juan">
+                                        <span>加息券</span><span>现金券</span><span>可转让</span>
+                                    </div>
+                                    <div></div>
+                                    <div class="jindu">
+                                        <p><span style="width: 20%"></span></p>5%
+                                    </div>
+                                </li>
+                                <li class="baozhang2">
+                                    <div>年化收益</div>
+                                    <div>项目期限</div>
+                                    <div>项目总额</div>
+                                    <div>还需：<span class="haixu">875300.00</span>元</div>
+                                </li>
+                                <li class="baozhang3">
+                                    <div><h1><span class="size baifenbi">12.00%</span></h1></div>
+                                    <div><h1><span class="size">12.00</span>个月</h1></div>
+                                    <div><h1><span class="size">12.00</span>个月</h1></div>
+                                    <div class="zhuangtai"><button>立即投资</button></div>
+                                </li>   
+                            </ul>       
+                        </a>
+                    </li>
+                </ul>
+                <ul class="baozhangList">
+                    <li>
+                        <a href="">
+                            <ul>
+                                <li class="baozhang1">
+                                    <div><h1>名称</h1></div>
+                                    <div class="juan">
+                                        <span>加息券</span><span>现金券</span><span>可转让</span>
+                                    </div>
+                                    <div></div>
+                                    <div class="jindu">
+                                        <p><span style="width: 20%"></span></p>5%
+                                    </div>
+                                </li>
+                                <li class="baozhang2">
+                                    <div>年化收益</div>
+                                    <div>项目期限</div>
+                                    <div>项目总额</div>
+                                    <div>还需：<span class="haixu">875300.00</span>元</div>
+                                </li>
+                                <li class="baozhang3">
+                                    <div><h1><span class="size baifenbi">12.00%</span></h1></div>
+                                    <div><h1><span class="size">12.00</span>个月</h1></div>
+                                    <div><h1><span class="size">12.00</span>个月</h1></div>
+                                    <div class="zhuangtai"><button>立即投资</button></div>
+                                </li>   
+                            </ul>       
+                        </a>
+                    </li>
+                </ul>
+                <ul class="baozhangList noneboder">
+                    <li>
+                        <a href="">
+                            <ul>
+                                <li class="baozhang1">
+                                    <div><h1>名称</h1></div>
+                                    <div class="juan">
+                                        <span>加息券</span><span>现金券</span><span>可转让</span>
+                                    </div>
+                                    <div></div>
+                                    <div class="jindu">
+                                        <p><span style="width: 20%"></span></p>5%
+                                    </div>
+                                </li>
+                                <li class="baozhang2">
+                                    <div>年化收益</div>
+                                    <div>项目期限</div>
+                                    <div>项目总额</div>
+                                    <div>还需：<span class="haixu">875300.00</span>元</div>
+                                </li>
+                                <li class="baozhang3">
+                                    <div><h1><span class="size baifenbi">12.00%</span></h1></div>
+                                    <div><h1><span class="size">12.00</span>个月</h1></div>
+                                    <div><h1><span class="size">12.00</span>个月</h1></div>
+                                    <div class="zhuangtai"><button>立即投资</button></div>
+                                </li>   
+                            </ul>       
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- 转让标 -->
+    <div class="listBaozheng clearfix wrap1200 biaodi biaodi4" style="margin-top: 20px;display: none">
+        <div class="listchild">
+            <div class="listLift">
+                <ul class="baozhangList">
+                    <li>
+                        <a href="">
+                            <ul>
+                                <li class="baozhang1">
+                                    <div><h1>转让标</h1></div>
+                                    <div class="juan">
+                                        <span>加息券</span><span>现金券</span><span>可转让</span>
+                                    </div>
+                                    <div></div>
+                                    <div class="jindu">
+                                        <p><span style="width: 20%"></span></p>5%
+                                    </div>
+                                </li>
+                                <li class="baozhang2">
+                                    <div>年化收益</div>
+                                    <div>项目期限</div>
+                                    <div>项目总额</div>
+                                    <div>还需：<span class="haixu">875300.00</span>元</div>
+                                </li>
+                                <li class="baozhang3">
+                                    <div><h1><span class="size baifenbi">12.00%</span></h1></div>
+                                    <div><h1><span class="size">12.00</span>个月</h1></div>
+                                    <div><h1><span class="size">12.00</span>个月</h1></div>
+                                    <div class="zhuangtai"><button>立即投资</button></div>
+                                </li>   
+                            </ul>       
+                        </a>
+                    </li>
+                </ul>
+                <ul class="baozhangList">
+                    <li>
+                        <a href="">
+                            <ul>
+                                <li class="baozhang1">
+                                    <div><h1>名称</h1></div>
+                                    <div class="juan">
+                                        <span>加息券</span><span>现金券</span><span>可转让</span>
+                                    </div>
+                                    <div></div>
+                                    <div class="jindu">
+                                        <p><span style="width: 20%"></span></p>5%
+                                    </div>
+                                </li>
+                                <li class="baozhang2">
+                                    <div>年化收益</div>
+                                    <div>项目期限</div>
+                                    <div>项目总额</div>
+                                    <div>还需：<span class="haixu">875300.00</span>元</div>
+                                </li>
+                                <li class="baozhang3">
+                                    <div><h1><span class="size baifenbi">12.00%</span></h1></div>
+                                    <div><h1><span class="size">12.00</span>个月</h1></div>
+                                    <div><h1><span class="size">12.00</span>个月</h1></div>
+                                    <div class="zhuangtai"><button>立即投资</button></div>
+                                </li>   
+                            </ul>       
+                        </a>
+                    </li>
+                </ul>
+                <ul class="baozhangList noneboder">
+                    <li>
+                        <a href="">
+                            <ul>
+                                <li class="baozhang1">
+                                    <div><h1>名称</h1></div>
+                                    <div class="juan">
+                                        <span>加息券</span><span>现金券</span><span>可转让</span>
+                                    </div>
+                                    <div></div>
+                                    <div class="jindu">
+                                        <p><span style="width: 20%"></span></p>5%
                                     </div>
                                 </li>
                                 <li class="baozhang2">
@@ -172,7 +511,23 @@
         </div>
     </div>
     <!-- 分页 -->
-    <div class="page">分页</div>
+    <div class="page wrap1200" style="background: #fff;text-align: center;">
+        <ul class="pagination">
+            <li><a href="#">&laquo;</a></li>
+            <li><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+            <li><a href="#">&raquo;</a></li>
+            <p class="pagebox">
+                <span>共<em>10</em>页</span>
+                <span>跳至<input class="now-page" type="text" value="1">页</span>
+                <span class="go">GO</span>
+            </p>
+        </ul>
+        
+    </div>
     <!--引入foot.html公司介绍  -->
     <iframe src='foot.html' width='100%' height='292px' frameborder='0' name="_blank" id="_blank" ></iframe>
     <script src="../js/jquery-1.12.2.min.js"></script>
@@ -180,5 +535,17 @@
     <script src="../js/input.js"></script>
     <!-- 让不（完全）支持html5的浏览器“支持”html5标签 -->
     <script type="text/javascript" src="../js/html5shiv.js"></script>
+    <script>
+    // 标的切换
+    $(".biao-title ul.clearfix li a").click(function(){
+        var index = $(this).attr("name");
+        //console.log(index);
+        $(".biaodi").hide();
+        $(".biaodi"+index).show();
+        $(".biao-title ul.clearfix li a").removeClass("active");
+        $(this).addClass("active");
+    });
+
+    </script>
 </body>
 </html>
