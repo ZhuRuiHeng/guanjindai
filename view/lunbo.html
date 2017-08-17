@@ -45,10 +45,15 @@
     <!-- 轮播图 插件-->
     <script src="../js/swiper.min.js"></script>
     <script>
-    var swiper = new Swiper('.swiper-container', {
-        pagination: '.swiper-pagination',
-        paginationClickable: true
-    })
+    var mySwiper = new Swiper('.swiper-container',{ 
+        autoplay : 5000,//自动运行 
+        nextButton: '.swiper-button-next', 
+        prevButton: '.swiper-button-prev',//按钮 
+        direction: 'horizontal',//水平方向 
+        loop : true,//可以循环点击 
+        pagination : '.swiper-pagination',//点 
+        paginationClickable: true,
+    }); 
     </script>
 </body>
 </html>
