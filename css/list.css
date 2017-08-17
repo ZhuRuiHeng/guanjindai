@@ -173,3 +173,214 @@ body{
 .pagebox .go{background: #ddd;
 padding: 0 10px;
 cursor: pointer;}
+.wrap1200 .inform-list ul li{
+    float: left;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.wrap1200 .inform-list{
+  border-bottom: 1px solid #ddd;
+}
+.wrap1200 .inform-list ul li.active{
+    color: #169BD5;
+}
+.wrap1200 .box1 ol li{
+    display: float;
+    width: 33%;
+    display: inline-block;
+    padding-top: 20px;
+}
+.wrap1200 .box1 ol li div{
+    display: inline-block;
+}
+.wrap1200 .box1 ol li div img{
+    width: 80px;
+}
+.wrap1200 .box1 ol li div.sums{
+    height: 60px;
+    width: 143px;
+    text-align: center;
+}
+.wrap1200 .box1 ol li div.sums .shuliang{
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+}
+.wrap1200 .box1 .module{
+    background: #eee;
+    margin:20px 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.wrap1200 .box1 .module .moduleTitle{
+    color: #000;
+    font-size: 20px;
+    line-height: 40px;
+}
+.wrap1200 .box1 .module li{
+  padding: 4px 0;
+}
+.wrap1200 .box1 .module1 li p{
+  display: inline-block;
+  margin-right: 40px;
+}
+.wrap1200 .box2 ol{
+  padding: 15px 0;
+  /*border-bottom: 1px solid #ddd;*/
+  font-size: 18px;
+}
+.wrap1200 .box2 ol li,.wrap1200 .box2 ul li{
+  float: left;
+  display: inline-block;
+  width: 20%;
+  text-align: center;
+}
+.wrap1200 .box2 ul{
+  padding: 10px 0;
+}
+
+/**我的券包**/
+.bouns-item{
+  width: 381px;
+  height: 200px;
+  background: url(../images/user_bouns_bg.png) no-repeat center;
+  background-size: 100%;
+  margin: 10px 29px 30px 18px;
+  float: left;
+  position: relative;
+  overflow: hidden;
+}
+.coupon-item{
+  width: 390px;
+  height: 180px;
+  background: url(../images/user_coupon_bg.png) no-repeat center;
+  background-size: 100%;
+  margin: 10px 29px 30px 18px;
+  float: left;
+  position: relative;
+  overflow: hidden;
+}
+.djh-logo{
+  background: url(../images/bouns_djh.png.png) no-repeat center;
+  background-size: 100%;
+  width: 150px;
+  height: 153px;
+  position: absolute;
+  right: -45px;
+  top: -38px;
+  z-index: 99;
+}
+.ysy-logo{
+  background: url(../images/bouns_ysy.png) no-repeat center;
+  background-size: 100%;
+  width: 150px;
+  height: 153px;
+  position: absolute;
+  right: -45px;
+  top: -38px;
+  z-index: 99;
+}
+.ygq-logo{
+  background: url(../images/bouns_ygq.png) no-repeat center;
+  background-size: 100%;
+  width: 150px;
+  height: 153px;
+  position: absolute;
+  right: -45px;
+  top: -38px;
+  z-index: 99;
+}
+.coupon-item .ysy-logo,.coupon-item .ygq-logo{
+  top: -48px;
+}
+.bouns-box{
+  padding:32px 66px ;
+}
+.coupon-item .bouns-box{
+  padding: 24px 40px;
+}
+.bouns-box .bouns-type{
+  color: #222;
+  font-size: 14px;
+  line-height: 15px;
+}
+.bouns-box .bouns-money{
+  font-size: 30px;
+  color: #f13f3f;
+  font-size: 40px;
+  font-weight:bold ;
+  line-height: 40px;
+  margin: 14px 0 20px 0;
+}
+.bouns-box .bouns-money span{
+  font-size: 25px;
+  display: inline-block;
+  vertical-align: top;
+  line-height: 37px;
+}
+.bouns-box .limit-money,.bouns-box .exp-time{
+  font-size: 15px;
+  color: #666;
+  line-height: 28px;
+}
+.bouns-box .limit-money span,.bouns-box .exp-time span{
+  font-size: 14px;
+}
+.bouns-box .use-btn{
+  width: 98px;
+  height: 38px;
+  line-height: 38px;
+  position: absolute;
+  right: 20px;
+  top: 34px;
+  border: 1px solid #f13f3f;
+  color: #f13f3f;
+  font-size: 15px;
+  text-align: center;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  cursor: pointer;
+}
+.coupon-item .use-btn{
+  top: 71px;
+}
+.get-voucher-more{
+  width: 198px;
+  height: 38px;
+  text-align: center;
+  line-height: 38px;
+  border: 1px solid #f13f3f;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  margin: 20px auto;
+  color: #f13f3f;
+  cursor: pointer;
+  display: none;
+}
+.bouns-tip{
+  background: #fbf9e4;
+  padding: 42px 60px;
+  margin-bottom: 10px;
+}
+.bouns-tip p{
+  line-height: 36px;
+  color: #feae00;
+  font-size: 16px;
+}
+#loading{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+#loading img{
+  display: block;
+  margin: 25% auto 0 auto;
+}

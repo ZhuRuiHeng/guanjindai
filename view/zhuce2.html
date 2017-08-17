@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>管金贷-用户注册</title>
+	<title>管金贷-开通银行存管账户</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta content="always" name="referrer">
     <meta name="renderer" content="webkit">
@@ -34,18 +34,22 @@
         <div class="zhuceBox">
             <div class="zhuce">
                 <form action="" method="post">
-                    <h1 class="title clearfix">用户注册<p><a href="login.html">已有账号，</a><a href="login.html" style="color:red;">立即登录</a></p></h1>
+                    <h1 class="title clearfix">开通银行存管账户<p><a href="login.html">已有账号，</a><a href="login.html" style="color:red;">立即登录</a></p></h1>
+                    <div class="form-group">
+                        <label>姓&nbsp;&nbsp;&nbsp;&nbsp;名<span>*</span></label>  
+                        <input type="text" placeholder="请输入您的真实姓名">
+                    </div>
+                    <div class="form-group">
+                        <label>身份证码<span>*</span></label>  
+                        <input type="text" placeholder="请输入您的身份证号码">
+                    </div>
+                    <div class="form-group">
+                        <label>银行卡号<span>*</span></label>  
+                        <input type="text" placeholder="请输入您的银行卡号码">
+                    </div>
                     <div class="form-group">
                         <label>手机号码<span>*</span></label>  
-                        <input type="text" placeholder="请输入您的手机号码">
-                    </div>
-                    <div class="form-group">
-                        <label>登录密码<span>*</span></label>  
-                        <input type="password" placeholder="请输入密码，由字母、数字、特殊字符组成的密码">
-                    </div>
-                    <div class="form-group">
-                        <label>确认密码<span>*</span></label>  
-                        <input type="password" placeholder="请再次输入您的密码">
+                        <input type="tel" placeholder="请输入您的手机号码">
                     </div>
                     <div class="form-group duanxin">
                         <label>短信验证<span>*</span></label>  
@@ -53,13 +57,12 @@
                         <button>获取短信验证码</button>
                     </div>
                     <div class="form-group">
-                        <label>推荐人<span></span></label>  
-                        <input type="text" placeholder="请输入您的推荐人的邀请码">
-                    </div>
-                    <div class="form-group">
                         <label style="visibility: hidden;">用户协议<span></span></label>  
-                        <p style="display: inline-block;"><input type="checkbox">我已阅读并且同意
-                        <a href="javascript:;" id="xieyi" style="color:red">《XX会员服务协议》</a></p>
+                        <p style="display: inline-block;">
+                          <input type="checkbox">我已阅读并且同意
+                          <a href="javascript:;" id="xieyi1" style="color:red">《用户授权协议》</a>
+                          <a href="javascript:;" id="xieyi2" style="color:red">《XX银行网络交易资金账户服务第三方协议》</a>
+                        </p>
                     </div>
                     <p><button style="width:300px;margin:0 auto;display:block;margin-top: 33px;" type="submit" class="btn btn-primary" id="submit"> 确认注册</button></p>
                 </form>
@@ -107,14 +110,25 @@
           } 
 
         // layui弹窗
-        $('#xieyi').on('click', function(){
+        $('#xieyi1').on('click', function(){
             layer.open({
-                title: '注册协议',
+                title: '《用户授权协议》',
                 content: '淘元宝非常重视用户个人信息（即能够独立或与其他信息结合后识别用户身份的信息）的保护，在您使用淘元宝提供的服务时，您同意淘元宝按照在淘元宝平台上公布的隐私权政策收集、存储、使用、披露和保护您的个人信息。淘元宝希望通过隐私权政策向您清楚地介绍淘元宝对您个人信息的处理方式，因此淘元宝建议您完整地阅读隐私权政策，以帮助您更好地保护您的隐私权。淘元宝非常重视用户个人信息（即能够独立或与其他信息结合后识别用户身份的信息）的保护，在您使用淘元宝提供的服务时，您同意淘元宝按照在淘元宝平台上公布的隐私权政策收集、存储、使用、披露和保护您的个人信息。淘元宝希望通过隐私权政策向您清楚地介绍淘元宝对您个人信息的处理方式，因此淘元宝淘元宝非常重视用户个人信息（即能够独立或与其他信息结合后识别用户身份的信息）的保护，在您使用淘元宝提供的服务时，您同意淘元宝按照在淘元宝平台上公布的隐私权政策收集、存储、使用、披露和保护您的个人信息。淘元宝希望通过隐私权政策向您清楚地介绍淘元宝对您个人信息的处理方式，因此淘元宝建议您完整地阅读隐私权政策，以帮助您更好地保护您的隐私权。淘元宝非常重视用户个人信息（即能够独立或与其他信息结合后识别用户身份的信息）的保护，在您使用淘元宝提供的服务时，您同意淘元宝按照在淘元宝平台上公布的隐私权政策收集、存储、使用、披露和保护您的个人信息。淘元宝希望通过隐私权政策向您清楚地介绍淘元宝对您个人信息的处理方式，因此淘元宝建议您完整地阅读隐私权政策，以帮助您更好地保护您的隐私权。淘元宝非常重视用户个人信息（即能够独立或与其他信息结合后识别用户身份的信息）的保护，在您使用淘元宝提供的服务时，您同意淘元宝按照在淘元宝平台上公布的隐私权政策收集、存储、使用、披露和保护您的个人信息。淘元宝希望通过隐私权政策向您清楚地介绍淘元宝对您个人信息的处理方式，因此淘元宝建议您完整地阅读隐私权政策，以帮助您更好地保护您的隐私权。淘元宝非常重视用户个人信息（即能够独立或与其他信息结合后识别用户身份的信息）的保护，在您使用淘元宝提供的服务时，您同意淘元宝按照在淘元宝平台上公布的隐私权政策收集、存储、使用、披露和保护您的个人信息。淘元宝希望通过隐私权政策向您清楚地介绍淘元宝对您个人信息的处理方式，因此淘元宝建议您完整地阅读隐私权政策，以帮助您更好地保护您的隐私权。建议您完整地阅读隐私权政策，以帮助您更好地保护您的隐私权。',
                 area: ['660px', '660px'],
                 maxmin: true
             });  
         }); 
+
+
+        $('#xieyi2').on('click', function(){
+            layer.open({
+                title: '第三方协议',
+                content: '淘元宝非常重视用户个人信息（即能够独立或与其他信息结合后识别用户身份的信息）的保护，在您使用淘元宝提供的服务时，您同意淘元宝按照在淘元宝平台上公布的隐私权政策收集、存储、使用、披露和保护您的个人信息。淘元宝希望通过隐私权政策向您清楚地介绍淘元宝对您个人信息的处理方式，因此淘元宝建议您完整地阅读隐私权政策，以帮助您更好地保护您的隐私权。淘元宝非常重视用户个人信息（即能够独立或与其他信息结合后识别用户身份的信息）的保护，在您使用淘元宝提供的服务时，您同意淘元宝按照在淘元宝平台上公布的隐私权政策收集、存储、使用、披露和保护您的个人信息。淘元宝希望通过隐私权政策向您清楚地介绍淘元宝对您个人信息的处理方式，因此淘元宝淘元宝非常重视用户个人信息（即能够独立或与其他信息结合后识别用户身份的信息）的保护，在您使用淘元宝提供的服务时，您同意淘元宝按照在淘元宝平台上公布的隐私权政策收集、存储、使用、披露和保护您的个人信息。淘元宝希望通过隐私权政策向您清楚地介绍淘元宝对您个人信息的处理方式，因此淘元宝建议您完整地阅读隐私权政策，以帮助您更好地保护您的隐私权。淘元宝非常重视用户个人信息（即能够独立或与其他信息结合后识别用户身份的信息）的保护，在您使用淘元宝提供的服务时，您同意淘元宝按照在淘元宝平台上公布的隐私权政策收集、存储、使用、披露和保护您的个人信息。淘元宝希望通过隐私权政策向您清楚地介绍淘元宝对您个人信息的处理方式，因此淘元宝建议您完整地阅读隐私权政策，以帮助您更好地保护您的隐私权。淘元宝非常重视用户个人信息（即能够独立或与其他信息结合后识别用户身份的信息）的保护，在您使用淘元宝提供的服务时，您同意淘元宝按照在淘元宝平台上公布的隐私权政策收集、存储、使用、披露和保护您的个人信息。淘元宝希望通过隐私权政策向您清楚地介绍淘元宝对您个人信息的处理方式，因此淘元宝建议您完整地阅读隐私权政策，以帮助您更好地保护您的隐私权。淘元宝非常重视用户个人信息（即能够独立或与其他信息结合后识别用户身份的信息）的保护，在您使用淘元宝提供的服务时，您同意淘元宝按照在淘元宝平台上公布的隐私权政策收集、存储、使用、披露和保护您的个人信息。淘元宝希望通过隐私权政策向您清楚地介绍淘元宝对您个人信息的处理方式，因此淘元宝建议您完整地阅读隐私权政策，以帮助您更好地保护您的隐私权。建议您完整地阅读隐私权政策，以帮助您更好地保护您的隐私权。',
+                area: ['660px', '660px'],
+                maxmin: true
+            });  
+        }); 
+
 
         layui.use('layer', function(){
             var $ = layui.jquery,
